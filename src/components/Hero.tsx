@@ -12,19 +12,26 @@ export function Hero() {
             Empowering rural communities in Uganda through sustainable agriculture, environmental conservation, and economic development.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <Button size="lg" className="bg-green-600 hover:bg-green-700">
+            <Button size="lg" className="bg-green-600 hover:bg-green-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
               Learn More
             </Button>
-            <Button variant="outline" size="lg">
+            <Button variant="outline" size="lg" className="transform hover:scale-105 transition-all duration-300 border-2 hover:border-green-500">
               Get Involved
             </Button>
           </div>
         </div>
-        {/* Image placeholder */}
+        {/* Hero Image */}
         <div className="mt-16 flex justify-center">
-          <div className="relative h-96 w-full max-w-4xl overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-800">
-            <div className="absolute inset-0 flex items-center justify-center text-gray-500 dark:text-gray-400">
-              [Hero Image Placeholder - Sustainable Agriculture in Uganda]
+          <div className="relative h-96 w-full max-w-4xl overflow-hidden rounded-lg shadow-2xl">
+            <img
+              src="/coffee_plantation.png"
+              alt="Coffee plantation in Uganda"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <div className="absolute bottom-4 left-4 text-white">
+              <p className="text-sm font-medium">Sustainable Coffee Farming</p>
+              <p className="text-xs opacity-90">Earth Sprout Foundation, Uganda</p>
             </div>
           </div>
         </div>

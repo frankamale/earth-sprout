@@ -25,7 +25,7 @@ export function AgriculturalInitiatives() {
 
           <TabsContent value="fruit-trees" className="mt-8">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-              <Card>
+              <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                 <CardHeader>
                   <CardTitle>Jackfruit, Mango, Avocado & Soursop</CardTitle>
                   <CardDescription>High nutritional value and market potential</CardDescription>
@@ -36,13 +36,17 @@ export function AgriculturalInitiatives() {
                     <li>• Pest management and post-harvest handling</li>
                     <li>• Quality yields for local and export markets</li>
                   </ul>
-                  <div className="mt-4 h-32 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
-                    [Jackfruit Image Placeholder]
+                  <div className="mt-4 h-32 overflow-hidden rounded">
+                    <img
+                      src="/jackfruit.png"
+                      alt="Jackfruit tree"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                 <CardHeader>
                   <CardTitle>Planting & Spacing Details</CardTitle>
                   <CardDescription>Optimized for maximum productivity</CardDescription>
@@ -89,7 +93,7 @@ export function AgriculturalInitiatives() {
 
           <TabsContent value="cash-crops" className="mt-8">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-              <Card>
+              <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                 <CardHeader>
                   <CardTitle>Cocoa & Coffee Farming</CardTitle>
                   <CardDescription>Significant export potential</CardDescription>
@@ -100,13 +104,17 @@ export function AgriculturalInitiatives() {
                     <li>• Processing and marketing guidance</li>
                     <li>• Income enhancement for farmers</li>
                   </ul>
-                  <div className="mt-4 h-32 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
-                    [Cocoa & Coffee Image Placeholder]
+                  <div className="mt-4 h-32 overflow-hidden rounded">
+                    <img
+                      src="/coffee_berries.png"
+                      alt="Coffee berries"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                 <CardHeader>
                   <CardTitle>Coffee Production Details</CardTitle>
                   <CardDescription>Uganda's major cash crop</CardDescription>
@@ -124,7 +132,7 @@ export function AgriculturalInitiatives() {
 
           <TabsContent value="vegetables" className="mt-8">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-              <Card>
+              <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                 <CardHeader>
                   <CardTitle>Onion & Banana Farming</CardTitle>
                   <CardDescription>Quick returns and adaptability</CardDescription>
@@ -135,13 +143,17 @@ export function AgriculturalInitiatives() {
                     <li>• Disease management</li>
                     <li>• Maximum productivity techniques</li>
                   </ul>
-                  <div className="mt-4 h-32 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
-                    [Onion & Banana Image Placeholder]
+                  <div className="mt-4 h-32 overflow-hidden rounded">
+                    <img
+                      src="/banana_stems.png"
+                      alt="Banana stems"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
                 <CardHeader>
                   <CardTitle>Passion Fruit & Irish Potato</CardTitle>
                   <CardDescription>High-value crops with growing demand</CardDescription>
@@ -158,7 +170,7 @@ export function AgriculturalInitiatives() {
           </TabsContent>
 
           <TabsContent value="aquaculture" className="mt-8">
-            <Card>
+            <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
               <CardHeader>
                 <CardTitle>Aquaculture Support</CardTitle>
                 <CardDescription>Fish farming for sustainable production</CardDescription>
@@ -182,8 +194,12 @@ export function AgriculturalInitiatives() {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-4 h-32 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
-                  [Aquaculture Image Placeholder]
+                <div className="mt-4 h-32 overflow-hidden rounded">
+                  <img
+                    src="/water_reservoir.png"
+                    alt="Water reservoir for aquaculture"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </CardContent>
             </Card>

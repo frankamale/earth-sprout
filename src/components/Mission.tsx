@@ -14,7 +14,7 @@ export function Mission() {
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <Card>
+          <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 🌾 Agricultural Initiatives
@@ -33,7 +33,7 @@ export function Mission() {
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 🐟 Aquaculture
@@ -52,7 +52,7 @@ export function Mission() {
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 🌱 Community Support
@@ -72,11 +72,18 @@ export function Mission() {
           </Card>
         </div>
 
-        {/* Image placeholder */}
+        {/* Mission Image */}
         <div className="mt-16 flex justify-center">
-          <div className="relative h-64 w-full max-w-4xl overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-800">
-            <div className="absolute inset-0 flex items-center justify-center text-gray-500 dark:text-gray-400">
-              [Mission Image Placeholder - Community Farming in Uganda]
+          <div className="relative h-64 w-full max-w-4xl overflow-hidden rounded-lg shadow-xl">
+            <img
+              src="/banana_plantation.png"
+              alt="Banana plantation community farming"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-green-900/70 to-transparent"></div>
+            <div className="absolute bottom-4 left-4 text-white">
+              <p className="text-sm font-medium">Community Banana Farming</p>
+              <p className="text-xs opacity-90">Sustainable Agriculture Initiative</p>
             </div>
           </div>
         </div>

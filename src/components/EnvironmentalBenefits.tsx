@@ -15,7 +15,7 @@ export function EnvironmentalBenefits() {
         </div>
 
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2">
-          <Card>
+          <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
             <CardHeader>
               <CardTitle>1. Ecology & Biodiversity</CardTitle>
               <CardDescription>Supporting wildlife and natural habitats</CardDescription>
@@ -37,13 +37,17 @@ export function EnvironmentalBenefits() {
                   <li>• Root networks improve water infiltration</li>
                 </ul>
               </div>
-              <div className="h-32 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
-                [Biodiversity Image Placeholder]
+              <div className="h-32 overflow-hidden rounded">
+                <img
+                  src="/leaves.png"
+                  alt="Green leaves representing biodiversity"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
             <CardHeader>
               <CardTitle>2. Climate Regulation & Carbon Sequestration</CardTitle>
               <CardDescription>Mitigating global warming through natural processes</CardDescription>
@@ -61,13 +65,17 @@ export function EnvironmentalBenefits() {
                   <li>• Cooling effects on fields and homes</li>
                 </ul>
               </div>
-              <div className="h-32 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
-                [Carbon Sequestration Image Placeholder]
+              <div className="h-32 overflow-hidden rounded">
+                <img
+                  src="/water_reservoir.png"
+                  alt="Water reservoir for climate regulation"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
             <CardHeader>
               <CardTitle>3. Enhancing Agricultural Resilience</CardTitle>
               <CardDescription>Building sustainable farming systems</CardDescription>
@@ -86,13 +94,17 @@ export function EnvironmentalBenefits() {
                 <h4 className="font-semibold">Crop Productivity</h4>
                 <p className="text-sm">Improved soil moisture and nutrients benefit companion crops, often increasing yields</p>
               </div>
-              <div className="h-32 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
-                [Agricultural Resilience Image Placeholder]
+              <div className="h-32 overflow-hidden rounded">
+                <img
+                  src="/fruit.png"
+                  alt="Fruits representing agricultural productivity"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </CardContent>
           </Card>
 
-          <Card>
+          <Card className="transform hover:scale-105 transition-all duration-300 hover:shadow-xl">
             <CardHeader>
               <CardTitle>4. Sustainable Agroforestry Systems</CardTitle>
               <CardDescription>Earth Sprout-style layered farming</CardDescription>
@@ -111,8 +123,12 @@ export function EnvironmentalBenefits() {
                   <li>• Maximizes land use and biodiversity</li>
                 </ul>
               </div>
-              <div className="h-32 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center">
-                [Agroforestry Image Placeholder]
+              <div className="h-32 overflow-hidden rounded">
+                <img
+                  src="/coffee_plantation.png"
+                  alt="Coffee plantation agroforestry"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </CardContent>
           </Card>
