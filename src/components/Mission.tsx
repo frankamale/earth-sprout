@@ -1,6 +1,6 @@
 export function Mission() {
   return (
-    <section id="mission" className="relative py-32 overflow-hidden">
+    <section id="mission" className="relative lg:py-20 py-10 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 to-gray-800">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920')] bg-cover bg-center opacity-5"></div>
       </div>

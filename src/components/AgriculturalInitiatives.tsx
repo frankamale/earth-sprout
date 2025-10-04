@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 export function AgriculturalInitiatives() {
     return (
-    <section id="initiatives" className="relative py-32 overflow-hidden">
+    <section id="initiatives" className="relative lg:py--20 py-10 lg:pt-10 overflow-hidden lg:px-20">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-gray-900">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1920')] bg-cover bg-center opacity-10"></div>
       </div>
@@ -19,7 +19,7 @@ export function AgriculturalInitiatives() {
         </div>
 
         <Tabs defaultValue="fruit-trees" className="mt-16">
-          <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 bg-white/5 backdrop-blur-xl border border-white/10 p-2 rounded-2xl">
+          <TabsList className=" grid w-full grid-cols-2 lg:grid-cols-4 bg-white/5 backdrop-blur-xl border border-white/10  rounded-2xl">
             <TabsTrigger value="fruit-trees" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 text-gray-300 rounded-xl transition-all">Fruit Trees</TabsTrigger>
             <TabsTrigger value="cash-crops" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 text-gray-300 rounded-xl transition-all">Cash Crops</TabsTrigger>
             <TabsTrigger value="vegetables" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 text-gray-300 rounded-xl transition-all">Vegetables</TabsTrigger>

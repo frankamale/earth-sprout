@@ -2,12 +2,12 @@ import { Separator } from "@/components/ui/separator"
 
 export function EnvironmentalBenefits() {
   return (
-    <section id="environment" className="relative py-32 overflow-hidden">
+    <section id="environment" className="relative lg:py-20 py-10 overflow-hidden lg:px-20">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 to-black">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920')] bg-cover bg-center opacity-10"></div>
       </div>
 
-      <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="mx-auto max-w-4xl text-center mb-16">
           <h2 className="text-5xl font-bold tracking-tight text-white sm:text-6xl mb-6">
             🌿 Environmental Impact & Benefits
