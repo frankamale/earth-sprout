@@ -98,6 +98,23 @@ export function Mission() {
           </div>
         </div>
 
+        <div className="mx-auto max-w-4xl text-center mb-20">
+          <h2 className="text-4xl font-bold tracking-tight text-white mb-6">
+            Contact Us
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gradient-to-br from-green-900/40 to-emerald-900/40 backdrop-blur-xl p-8 rounded-3xl border border-white/10">
+              <h3 className="text-2xl font-bold text-white mb-4">Head Office</h3>
+              <p className="text-gray-300 mb-2">Jinja Kimaka Road</p>
+              <p className="text-green-400 font-semibold">0775129894</p>
+            </div>
+            <div className="bg-gradient-to-br from-blue-900/40 to-cyan-900/40 backdrop-blur-xl p-8 rounded-3xl border border-white/10">
+              <h3 className="text-2xl font-bold text-white mb-4">Tororo - Nagongera</h3>
+              <p className="text-blue-400 font-semibold">0772087583</p>
+            </div>
+          </div>
+        </div>
+
         {/* Mission Image with Glass Effect */}
         <div className="flex justify-center">
           <div className="relative w-full max-w-6xl">

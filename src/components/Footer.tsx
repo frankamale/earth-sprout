@@ -52,7 +52,7 @@ export function Footer() {
               </li>
             </ul>
           </div>
-
+{/* 
           <div>
             <h4 className="font-semibold text-white text-lg mb-6">Get Involved</h4>
             <ul className="space-y-3">
@@ -81,6 +81,21 @@ export function Footer() {
                 </a>
               </li>
             </ul>
+          </div> */}
+
+          <div>
+            <h4 className="font-semibold text-white text-lg mb-6">Contact Information</h4>
+            <div className="space-y-3 text-gray-400">
+              <div>
+                <p className="font-medium text-white">Head Office</p>
+                <p>Jinja Kimaka Road</p>
+                <p>0775129894</p>
+              </div>
+              <div>
+                <p className="font-medium text-white">Tororo - Nagongera</p>
+                <p>0772087583</p>
+              </div>
+            </div>
           </div>
         </div>
 
