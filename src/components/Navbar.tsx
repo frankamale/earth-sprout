@@ -1,6 +1,13 @@
 import { Button } from "@/components/ui/button"
 
 export function Navbar() {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-white/10 bg-gray-900/80 backdrop-blur-xl supports-[backdrop-filter]:bg-gray-900/60">
       <div className="container mx-auto px-6 lg:px-10">
@@ -14,15 +21,15 @@ export function Navbar() {
             </a>
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#mission" className="text-sm font-medium text-gray-300 hover:text-green-400 transition-colors">
+            <button onClick={() => scrollToSection('mission')} className="text-sm font-medium text-gray-300 hover:text-green-400 transition-colors duration-300 ease-in-out">
               Mission
-            </a>
-            <a href="#initiatives" className="text-sm font-medium text-gray-300 hover:text-green-400 transition-colors">
+            </button>
+            <button onClick={() => scrollToSection('initiatives')} className="text-sm font-medium text-gray-300 hover:text-green-400 transition-colors duration-300 ease-in-out">
               Initiatives
-            </a>
-            <a href="#environment" className="text-sm font-medium text-gray-300 hover:text-green-400 transition-colors">
+            </button>
+            <button onClick={() => scrollToSection('environment')} className="text-sm font-medium text-gray-300 hover:text-green-400 transition-colors duration-300 ease-in-out">
               Environment
-            </a>
+            </button>
           </div>
           <div className="flex items-center space-x-3">
             <Button className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-semibold shadow-lg shadow-green-500/30 hover:shadow-green-500/50 transition-all">

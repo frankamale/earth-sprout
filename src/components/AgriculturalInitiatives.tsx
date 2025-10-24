@@ -20,10 +20,10 @@ export function AgriculturalInitiatives() {
 
         <Tabs defaultValue="fruit-trees" className="mt-16">
           <TabsList className=" grid w-full grid-cols-2 lg:grid-cols-4 bg-white/5 backdrop-blur-xl border border-white/10  rounded-2xl">
-            <TabsTrigger value="fruit-trees" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 text-gray-300 rounded-xl transition-all">Fruit Trees</TabsTrigger>
-            <TabsTrigger value="cash-crops" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 text-gray-300 rounded-xl transition-all">Cash Crops</TabsTrigger>
-            <TabsTrigger value="vegetables" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 text-gray-300 rounded-xl transition-all">Vegetables</TabsTrigger>
-            <TabsTrigger value="aquaculture" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 text-gray-300 rounded-xl transition-all">Aquaculture</TabsTrigger>
+            <TabsTrigger value="fruit-trees" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 !text-gray-300 rounded-xl transition-all">Fruit Trees</TabsTrigger>
+            <TabsTrigger value="cash-crops" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 !text-gray-300 rounded-xl transition-all">Cash Crops</TabsTrigger>
+            <TabsTrigger value="vegetables" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 !text-gray-300 rounded-xl transition-all">Vegetables</TabsTrigger>
+            <TabsTrigger value="aquaculture" className="data-[state=active]:bg-green-500/20 data-[state=active]:text-green-400 !text-gray-300 rounded-xl transition-all">Aquaculture</TabsTrigger>
           </TabsList>
 
           <TabsContent value="fruit-trees" className="mt-8">
