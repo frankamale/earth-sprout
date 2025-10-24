@@ -2,7 +2,7 @@ import { Separator } from "@radix-ui/react-separator";
 
 export function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-black border-t border-white/10">
+    <footer className="relative overflow-hidden bg-black border-t border-white/10 px-20">
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900/50 to-black"></div>
 
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-16">
